@@ -11,7 +11,7 @@ To run the script locally:
 
 #To run the script in a Docker container:
 docker build . -t system_monitor:1
-docker run system_monitor
+docker run system_monitor:1
 
 if asked permission, provide sudo privilage to the docker.
 
